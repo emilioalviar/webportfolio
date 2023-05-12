@@ -58,8 +58,29 @@ h1{
 	background-color: #455b55;
 }
 
+@media screen and (max-width: 898px) {
+    h1{
+        font-size:2.5rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     h1{
         font-size:2rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    h1{
+        font-size:28px;
+    }
+}
+
+@media screen and (max-width: 357px) {
+    h2{
+        font-size:1.25rem;
+    }
+}
+
+
+
